@@ -45,7 +45,7 @@
             // button2
             // 
             button2.DialogResult = DialogResult.Cancel;
-            button2.Location = new Point(174, 314);
+            button2.Location = new Point(218, 300);
             button2.Name = "button2";
             button2.Size = new Size(94, 34);
             button2.TabIndex = 23;
@@ -55,7 +55,7 @@
             // button1
             // 
             button1.DialogResult = DialogResult.OK;
-            button1.Location = new Point(174, 274);
+            button1.Location = new Point(55, 300);
             button1.Name = "button1";
             button1.Size = new Size(94, 34);
             button1.TabIndex = 22;
@@ -67,35 +67,35 @@
             // 
             textBox5.Location = new Point(120, 227);
             textBox5.Name = "textBox5";
-            textBox5.Size = new Size(343, 23);
+            textBox5.Size = new Size(219, 23);
             textBox5.TabIndex = 21;
             // 
             // textBox4
             // 
             textBox4.Location = new Point(120, 183);
             textBox4.Name = "textBox4";
-            textBox4.Size = new Size(343, 23);
+            textBox4.Size = new Size(219, 23);
             textBox4.TabIndex = 20;
             // 
             // textBox3
             // 
             textBox3.Location = new Point(120, 129);
             textBox3.Name = "textBox3";
-            textBox3.Size = new Size(343, 23);
+            textBox3.Size = new Size(219, 23);
             textBox3.TabIndex = 19;
             // 
             // textBox2
             // 
-            textBox2.Location = new Point(120, 88);
+            textBox2.Location = new Point(120, 85);
             textBox2.Name = "textBox2";
-            textBox2.Size = new Size(343, 23);
+            textBox2.Size = new Size(219, 23);
             textBox2.TabIndex = 18;
             // 
             // textBox1
             // 
             textBox1.Location = new Point(120, 36);
             textBox1.Name = "textBox1";
-            textBox1.Size = new Size(343, 23);
+            textBox1.Size = new Size(219, 23);
             textBox1.TabIndex = 17;
             // 
             // label5

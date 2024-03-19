@@ -43,7 +43,7 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(244, 74);
+            label2.Location = new Point(28, 35);
             label2.Name = "label2";
             label2.Size = new Size(73, 15);
             label2.TabIndex = 3;
@@ -52,7 +52,7 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(231, 155);
+            label1.Location = new Point(14, 70);
             label1.Name = "label1";
             label1.Size = new Size(86, 15);
             label1.TabIndex = 4;
@@ -61,7 +61,7 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(231, 249);
+            label3.Location = new Point(18, 106);
             label3.Name = "label3";
             label3.Size = new Size(83, 15);
             label3.TabIndex = 5;
@@ -70,15 +70,15 @@
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(270, 299);
+            label4.Location = new Point(38, 141);
             label4.Name = "label4";
-            label4.Size = new Size(44, 15);
+            label4.Size = new Size(65, 15);
             label4.TabIndex = 6;
-            label4.Text = "FECHA";
+            label4.Text = "FECHAREG";
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(357, 74);
+            textBox1.Location = new Point(165, 33);
             textBox1.Margin = new Padding(3, 2, 3, 2);
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(165, 23);
@@ -86,7 +86,7 @@
             // 
             // textBox2
             // 
-            textBox2.Location = new Point(357, 155);
+            textBox2.Location = new Point(165, 65);
             textBox2.Margin = new Padding(3, 2, 3, 2);
             textBox2.Name = "textBox2";
             textBox2.Size = new Size(165, 23);
@@ -94,7 +94,7 @@
             // 
             // textBox3
             // 
-            textBox3.Location = new Point(357, 241);
+            textBox3.Location = new Point(165, 100);
             textBox3.Margin = new Padding(3, 2, 3, 2);
             textBox3.Name = "textBox3";
             textBox3.Size = new Size(165, 23);
@@ -102,7 +102,7 @@
             // 
             // dateTimePicker1
             // 
-            dateTimePicker1.Location = new Point(357, 299);
+            dateTimePicker1.Location = new Point(165, 137);
             dateTimePicker1.Margin = new Padding(3, 2, 3, 2);
             dateTimePicker1.Name = "dateTimePicker1";
             dateTimePicker1.Size = new Size(165, 23);
@@ -110,7 +110,7 @@
             // 
             // button1
             // 
-            button1.Location = new Point(317, 364);
+            button1.Location = new Point(82, 181);
             button1.Margin = new Padding(3, 2, 3, 2);
             button1.Name = "button1";
             button1.Size = new Size(102, 22);
@@ -121,7 +121,7 @@
             // 
             // button2
             // 
-            button2.Location = new Point(470, 364);
+            button2.Location = new Point(221, 181);
             button2.Margin = new Padding(3, 2, 3, 2);
             button2.Name = "button2";
             button2.Size = new Size(94, 22);
@@ -133,7 +133,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(737, 442);
+            ClientSize = new Size(537, 262);
             Controls.Add(button2);
             Controls.Add(button1);
             Controls.Add(dateTimePicker1);

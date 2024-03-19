@@ -28,107 +28,101 @@
         /// </summary>
         private void InitializeComponent()
         {
-            label1 = new Label();
-            label2 = new Label();
-            label3 = new Label();
-            textBox1 = new TextBox();
-            textBox2 = new TextBox();
-            textBox3 = new TextBox();
-            button1 = new Button();
-            button2 = new Button();
-            SuspendLayout();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.SuspendLayout();
             // 
             // label1
             // 
-            label1.AutoSize = true;
-            label1.Location = new Point(71, 61);
-            label1.Name = "label1";
-            label1.Size = new Size(70, 15);
-            label1.TabIndex = 1;
-            label1.Text = "IDPERSONA";
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(81, 81);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(89, 20);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "IDPERSONA";
             // 
             // label2
             // 
-            label2.AutoSize = true;
-            label2.Location = new Point(62, 91);
-            label2.Name = "label2";
-            label2.Size = new Size(79, 15);
-            label2.TabIndex = 2;
-            label2.Text = "TIPO CLIENTE";
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(71, 121);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(99, 20);
+            this.label2.TabIndex = 2;
+            this.label2.Text = "TIPO CLIENTE";
             // 
             // label3
             // 
-            label3.AutoSize = true;
-            label3.Location = new Point(40, 121);
-            label3.Name = "label3";
-            label3.Size = new Size(99, 15);
-            label3.TabIndex = 3;
-            label3.Text = "CODIGO CLIENTE";
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(46, 161);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(124, 20);
+            this.label3.TabIndex = 3;
+            this.label3.Text = "CODIGO CLIENTE";
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(165, 56);
-            textBox1.Margin = new Padding(3, 2, 3, 2);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(304, 23);
-            textBox1.TabIndex = 4;
+            this.textBox1.Location = new System.Drawing.Point(189, 74);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(188, 27);
+            this.textBox1.TabIndex = 4;
             // 
             // textBox2
             // 
-            textBox2.Location = new Point(165, 86);
-            textBox2.Margin = new Padding(3, 2, 3, 2);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(304, 23);
-            textBox2.TabIndex = 5;
+            this.textBox2.Location = new System.Drawing.Point(189, 114);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(188, 27);
+            this.textBox2.TabIndex = 5;
             // 
             // textBox3
             // 
-            textBox3.Location = new Point(165, 121);
-            textBox3.Margin = new Padding(3, 2, 3, 2);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(304, 23);
-            textBox3.TabIndex = 6;
+            this.textBox3.Location = new System.Drawing.Point(189, 154);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(188, 27);
+            this.textBox3.TabIndex = 6;
             // 
             // button1
             // 
-            button1.Location = new Point(199, 227);
-            button1.Margin = new Padding(3, 2, 3, 2);
-            button1.Name = "button1";
-            button1.Size = new Size(102, 22);
-            button1.TabIndex = 7;
-            button1.Text = "GUARDAR";
-            button1.UseVisualStyleBackColor = true;
-            button1.Click += button1_Click;
+            this.button1.Location = new System.Drawing.Point(81, 220);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(116, 29);
+            this.button1.TabIndex = 7;
+            this.button1.Text = "GUARDAR";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
-            button2.Location = new Point(207, 165);
-            button2.Margin = new Padding(3, 2, 3, 2);
-            button2.Name = "button2";
-            button2.Size = new Size(94, 22);
-            button2.TabIndex = 8;
-            button2.Text = "CANCELAR";
-            button2.UseVisualStyleBackColor = true;
+            this.button2.Location = new System.Drawing.Point(237, 220);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(107, 29);
+            this.button2.TabIndex = 8;
+            this.button2.Text = "CANCELAR";
+            this.button2.UseVisualStyleBackColor = true;
             // 
             // ClienteInsertarVista
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
-            AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(882, 521);
-            Controls.Add(button2);
-            Controls.Add(button1);
-            Controls.Add(textBox3);
-            Controls.Add(textBox2);
-            Controls.Add(textBox1);
-            Controls.Add(label3);
-            Controls.Add(label2);
-            Controls.Add(label1);
-            Margin = new Padding(3, 2, 3, 2);
-            Name = "ClienteInsertarVista";
-            Text = "ClienteInsertarVista";
-            Load += ClienteInsertarVista_Load;
-            ResumeLayout(false);
-            PerformLayout();
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(462, 328);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
+            this.Name = "ClienteInsertarVista";
+            this.Text = "ClienteInsertarVista";
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion

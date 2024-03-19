@@ -22,16 +22,11 @@ namespace SitemasVentas.VISTA.ClienteVistas
         private void button1_Click(object sender, EventArgs e)
         {
             Cliente cliente = new Cliente();
-            cliente.IdPersona = Convert.ToInt32(textBox1.Text);
+            cliente.IdPersona=Convert.ToInt32(textBox1.Text);
             cliente.TipoCliente = textBox2.Text;
-            cliente.CodigoCliente = textBox3.Text;
+            cliente.CodigoCliente=textBox3.Text;
             bss.InsertarClienteBss(cliente);
             MessageBox.Show("Se guardó correctamente el cliente");
-        }
-
-        private void ClienteInsertarVista_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }

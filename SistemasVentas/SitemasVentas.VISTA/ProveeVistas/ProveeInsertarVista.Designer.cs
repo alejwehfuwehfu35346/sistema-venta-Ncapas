@@ -28,127 +28,121 @@
         /// </summary>
         private void InitializeComponent()
         {
-            label2 = new Label();
-            label1 = new Label();
-            label3 = new Label();
-            label5 = new Label();
-            textBox1 = new TextBox();
-            textBox2 = new TextBox();
-            textBox3 = new TextBox();
-            dateTimePicker1 = new DateTimePicker();
-            button1 = new Button();
-            button2 = new Button();
-            SuspendLayout();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.SuspendLayout();
             // 
             // label2
             // 
-            label2.AutoSize = true;
-            label2.Location = new Point(87, 40);
-            label2.Name = "label2";
-            label2.Size = new Size(82, 15);
-            label2.TabIndex = 3;
-            label2.Text = "ID PRODUCTO";
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(44, 54);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(104, 20);
+            this.label2.TabIndex = 3;
+            this.label2.Text = "ID PRODUCTO";
             // 
             // label1
             // 
-            label1.AutoSize = true;
-            label1.Location = new Point(82, 92);
-            label1.Name = "label1";
-            label1.Size = new Size(87, 15);
-            label1.TabIndex = 4;
-            label1.Text = "ID PROVEEDOR";
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(36, 92);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(112, 20);
+            this.label1.TabIndex = 4;
+            this.label1.Text = "ID PROVEEDOR";
             // 
             // label3
             // 
-            label3.AutoSize = true;
-            label3.Location = new Point(125, 159);
-            label3.Name = "label3";
-            label3.Size = new Size(44, 15);
-            label3.TabIndex = 5;
-            label3.Text = "FECHA";
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(94, 135);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(54, 20);
+            this.label3.TabIndex = 5;
+            this.label3.Text = "FECHA";
             // 
             // label5
             // 
-            label5.AutoSize = true;
-            label5.Location = new Point(125, 223);
-            label5.Name = "label5";
-            label5.Size = new Size(50, 15);
-            label5.TabIndex = 6;
-            label5.Text = "PRECIO ";
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(86, 181);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(62, 20);
+            this.label5.TabIndex = 6;
+            this.label5.Text = "PRECIO ";
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(202, 40);
-            textBox1.Margin = new Padding(3, 2, 3, 2);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(376, 23);
-            textBox1.TabIndex = 8;
+            this.textBox1.Location = new System.Drawing.Point(189, 47);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(188, 27);
+            this.textBox1.TabIndex = 8;
             // 
             // textBox2
             // 
-            textBox2.Location = new Point(202, 92);
-            textBox2.Margin = new Padding(3, 2, 3, 2);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(376, 23);
-            textBox2.TabIndex = 9;
+            this.textBox2.Location = new System.Drawing.Point(189, 85);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(188, 27);
+            this.textBox2.TabIndex = 9;
             // 
             // textBox3
             // 
-            textBox3.Location = new Point(202, 220);
-            textBox3.Margin = new Padding(3, 2, 3, 2);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(376, 23);
-            textBox3.TabIndex = 10;
+            this.textBox3.Location = new System.Drawing.Point(189, 174);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(188, 27);
+            this.textBox3.TabIndex = 10;
             // 
             // dateTimePicker1
             // 
-            dateTimePicker1.Location = new Point(202, 159);
-            dateTimePicker1.Margin = new Padding(3, 2, 3, 2);
-            dateTimePicker1.Name = "dateTimePicker1";
-            dateTimePicker1.Size = new Size(376, 23);
-            dateTimePicker1.TabIndex = 16;
+            this.dateTimePicker1.Location = new System.Drawing.Point(189, 128);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(188, 27);
+            this.dateTimePicker1.TabIndex = 16;
             // 
             // button1
             // 
-            button1.Location = new Point(202, 273);
-            button1.Margin = new Padding(3, 2, 3, 2);
-            button1.Name = "button1";
-            button1.Size = new Size(102, 22);
-            button1.TabIndex = 17;
-            button1.Text = "GUARDAR";
-            button1.UseVisualStyleBackColor = true;
-            button1.Click += button1_Click;
+            this.button1.Location = new System.Drawing.Point(86, 243);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(116, 29);
+            this.button1.TabIndex = 17;
+            this.button1.Text = "GUARDAR";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
-            button2.Location = new Point(370, 273);
-            button2.Margin = new Padding(3, 2, 3, 2);
-            button2.Name = "button2";
-            button2.Size = new Size(94, 22);
-            button2.TabIndex = 18;
-            button2.Text = "CANCELAR";
-            button2.UseVisualStyleBackColor = true;
+            this.button2.Location = new System.Drawing.Point(270, 243);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(107, 29);
+            this.button2.TabIndex = 18;
+            this.button2.Text = "CANCELAR";
+            this.button2.UseVisualStyleBackColor = true;
             // 
             // ProveeInsertarVista
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
-            AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(789, 357);
-            Controls.Add(button2);
-            Controls.Add(button1);
-            Controls.Add(dateTimePicker1);
-            Controls.Add(textBox3);
-            Controls.Add(textBox2);
-            Controls.Add(textBox1);
-            Controls.Add(label5);
-            Controls.Add(label3);
-            Controls.Add(label1);
-            Controls.Add(label2);
-            Margin = new Padding(3, 2, 3, 2);
-            Name = "ProveeInsertarVista";
-            Text = "ProveeInsertarVista";
-            ResumeLayout(false);
-            PerformLayout();
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(522, 309);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.dateTimePicker1);
+            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.label2);
+            this.Name = "ProveeInsertarVista";
+            this.Text = "ProveeInsertarVista";
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion

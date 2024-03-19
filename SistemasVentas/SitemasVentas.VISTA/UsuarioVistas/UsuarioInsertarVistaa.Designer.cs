@@ -44,7 +44,7 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(284, 130);
+            label2.Location = new Point(61, 74);
             label2.Name = "label2";
             label2.Size = new Size(59, 15);
             label2.TabIndex = 4;
@@ -52,7 +52,7 @@
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(380, 130);
+            textBox1.Location = new Point(134, 70);
             textBox1.Margin = new Padding(3, 2, 3, 2);
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(200, 23);
@@ -60,7 +60,7 @@
             // 
             // button1
             // 
-            button1.Location = new Point(625, 130);
+            button1.Location = new Point(349, 74);
             button1.Margin = new Padding(3, 2, 3, 2);
             button1.Name = "button1";
             button1.Size = new Size(102, 22);
@@ -72,7 +72,7 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(259, 201);
+            label1.Location = new Point(12, 132);
             label1.Name = "label1";
             label1.Size = new Size(108, 15);
             label1.TabIndex = 17;
@@ -80,7 +80,7 @@
             // 
             // textBox2
             // 
-            textBox2.Location = new Point(380, 201);
+            textBox2.Location = new Point(134, 124);
             textBox2.Margin = new Padding(3, 2, 3, 2);
             textBox2.Name = "textBox2";
             textBox2.Size = new Size(200, 23);
@@ -89,15 +89,15 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(284, 321);
+            label3.Location = new Point(53, 186);
             label3.Name = "label3";
-            label3.Size = new Size(83, 15);
+            label3.Size = new Size(68, 15);
             label3.TabIndex = 19;
-            label3.Text = "CONTRASEÑA";
+            label3.Text = "PASSWORD";
             // 
             // textBox3
             // 
-            textBox3.Location = new Point(380, 313);
+            textBox3.Location = new Point(134, 178);
             textBox3.Margin = new Padding(3, 2, 3, 2);
             textBox3.Name = "textBox3";
             textBox3.PasswordChar = '*';
@@ -108,7 +108,7 @@
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(268, 253);
+            label4.Location = new Point(22, 237);
             label4.Name = "label4";
             label4.Size = new Size(99, 15);
             label4.TabIndex = 21;
@@ -116,14 +116,14 @@
             // 
             // dateTimePicker1
             // 
-            dateTimePicker1.Location = new Point(380, 247);
+            dateTimePicker1.Location = new Point(134, 231);
             dateTimePicker1.Name = "dateTimePicker1";
             dateTimePicker1.Size = new Size(200, 23);
             dateTimePicker1.TabIndex = 22;
             // 
             // button2
             // 
-            button2.Location = new Point(380, 371);
+            button2.Location = new Point(53, 297);
             button2.Margin = new Padding(3, 2, 3, 2);
             button2.Name = "button2";
             button2.Size = new Size(102, 22);
@@ -134,7 +134,7 @@
             // 
             // button3
             // 
-            button3.Location = new Point(501, 371);
+            button3.Location = new Point(232, 297);
             button3.Margin = new Padding(3, 2, 3, 2);
             button3.Name = "button3";
             button3.Size = new Size(102, 22);
@@ -146,7 +146,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(875, 450);
+            ClientSize = new Size(511, 450);
             Controls.Add(button3);
             Controls.Add(button2);
             Controls.Add(dateTimePicker1);

@@ -28,64 +28,61 @@
         /// </summary>
         private void InitializeComponent()
         {
-            label1 = new Label();
-            textBox1 = new TextBox();
-            button1 = new Button();
-            button2 = new Button();
-            SuspendLayout();
+            this.label1 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.SuspendLayout();
             // 
             // label1
             // 
-            label1.AutoSize = true;
-            label1.Location = new Point(34, 50);
-            label1.Name = "label1";
-            label1.Size = new Size(56, 15);
-            label1.TabIndex = 1;
-            label1.Text = "NOMBRE";
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(39, 67);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(70, 20);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "NOMBRE";
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(112, 48);
-            textBox1.Margin = new Padding(3, 2, 3, 2);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(165, 23);
-            textBox1.TabIndex = 4;
+            this.textBox1.Location = new System.Drawing.Point(128, 64);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(188, 27);
+            this.textBox1.TabIndex = 4;
             // 
             // button1
             // 
-            button1.Location = new Point(153, 158);
-            button1.Margin = new Padding(3, 2, 3, 2);
-            button1.Name = "button1";
-            button1.Size = new Size(83, 23);
-            button1.TabIndex = 7;
-            button1.Text = "GUARDAR";
-            button1.UseVisualStyleBackColor = true;
-            button1.Click += button1_Click;
+            this.button1.Location = new System.Drawing.Point(39, 140);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(95, 31);
+            this.button1.TabIndex = 7;
+            this.button1.Text = "GUARDAR";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
-            button2.Location = new Point(151, 106);
-            button2.Margin = new Padding(3, 2, 3, 2);
-            button2.Name = "button2";
-            button2.Size = new Size(85, 22);
-            button2.TabIndex = 8;
-            button2.Text = "CANCELAR";
-            button2.UseVisualStyleBackColor = true;
+            this.button2.Location = new System.Drawing.Point(173, 142);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(97, 29);
+            this.button2.TabIndex = 8;
+            this.button2.Text = "CANCELAR";
+            this.button2.UseVisualStyleBackColor = true;
             // 
             // MarcarInsertarVista
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
-            AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(661, 350);
-            Controls.Add(button2);
-            Controls.Add(button1);
-            Controls.Add(textBox1);
-            Controls.Add(label1);
-            Margin = new Padding(3, 2, 3, 2);
-            Name = "MarcarInsertarVista";
-            Text = "MarcarInsertarVista";
-            ResumeLayout(false);
-            PerformLayout();
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(363, 228);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.label1);
+            this.Name = "MarcarInsertarVista";
+            this.Text = "MarcarInsertarVista";
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion
